@@ -16,7 +16,8 @@
         app:actionLayout="@layout/switch_item" />
     <item
         android:id="@+id/menu_mcn"
-        android:title="Manage Calls and Notification" />
+        android:title="Manage Calls and Notification"
+        />
     <item android:id="@+id/menu_feedback"
         android:title="Feedback" />
 

@@ -16,11 +16,20 @@
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
         />
+    <TextView
+        android:id="@+id/SetTxt1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Edit Message below"
+        android:layout_below="@id/SetSwi"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/etMessage"
-        android:layout_below="@+id/SetSwi"
+        android:text="Can't Talk now,I am Riding a Bike"
+        android:textSize="19sp"
+        android:inputType="textMultiLine"
+        android:layout_below="@+id/SetTxt1"
         android:layout_marginRight="15dp"
         android:layout_marginLeft="15dp"/>
     <Switch

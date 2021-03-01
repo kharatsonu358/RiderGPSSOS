@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "413824220577",
+    "project_id": "rider-a7764",
+    "storage_bucket": "rider-a7764.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:413824220577:android:bb14a42c7e3982dbc89fe0",
+        "android_client_info": {
+          "package_name": "com.example.ridergpssos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "413824220577-ldhil78lnfoc8ca1lq6et9q09c3s96c7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0XuHl1YK14fepnWYwzYGvHaMpuZTZ_Vg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "413824220577-ldhil78lnfoc8ca1lq6et9q09c3s96c7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

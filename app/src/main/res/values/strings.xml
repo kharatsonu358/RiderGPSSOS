@@ -19,4 +19,9 @@
     <string name="attachment_summary_on">Automatically download attachments for incoming emails
     </string>
     <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="Notification1">Ride Mode On</string>
+    <string name="checkable">On</string>
+    <string name="contact">First Contact</string>
+    <string name="contact2">Second Contact</string>
+    <string name="contact3">Third Contact</string>
 </resources>

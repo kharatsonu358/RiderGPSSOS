@@ -1,17 +1,18 @@
 package Model;
 
 public class Users {
-    private String name,phone ,password;
+    private String name,phone ,password,sos1;
 
     public Users()
     {
 
     }
 
-    public Users(String name, String phone, String password) {
+    public Users(String name, String phone, String password,String sos1) {
         this.name = name;
         this.phone = phone;
         this.password = password;
+        this.sos1=sos1;
     }
 
     public String getName() {
@@ -36,5 +37,13 @@ public class Users {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    public String getSos1() {
+        return sos1;
+    }
+
+    public void setSos1(String sos1) {
+        this.sos1 = sos1;
     }
 }

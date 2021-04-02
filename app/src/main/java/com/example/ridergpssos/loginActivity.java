@@ -14,6 +14,7 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.ridergpssos.Prevalent.Prevalent;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -21,6 +22,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 import Model.Users;
+import io.paperdb.Paper;
 
 public class loginActivity extends AppCompatActivity {
     private Button btnLogin;
@@ -35,13 +37,13 @@ public class loginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-        btnLogin =(Button)findViewById(R.id.login_btn);
-        InputPassword = (EditText) findViewById(R.id.login_password_input);
-        InputPhoneNumber = (EditText) findViewById(R.id.login_phone_number_input);
-        AdminLink = (TextView) findViewById(R.id.admin_panel_link);
-        NotAdminLink = (TextView) findViewById(R.id.not_admin_panel_link);
+        btnLogin = findViewById(R.id.login_btn);
+        InputPassword = findViewById(R.id.login_password_input);
+        InputPhoneNumber = findViewById(R.id.login_phone_number_input);
+        AdminLink = findViewById(R.id.admin_panel_link);
+        NotAdminLink = findViewById(R.id.not_admin_panel_link);
         loadingBar = new ProgressDialog(this);
-        chkBoxRememberMe = (CheckBox) findViewById(R.id.checkbox);
+        chkBoxRememberMe = findViewById(R.id.checkbox);
 
 
         btnLogin.setOnClickListener(new View.OnClickListener() {
@@ -81,6 +83,7 @@ public class loginActivity extends AppCompatActivity {
         String phone = InputPhoneNumber.getText().toString();
         String password = InputPassword.getText().toString();
 
+
         if (TextUtils.isEmpty(phone))
         {
             Toast.makeText(this, "Please write your phone number...", Toast.LENGTH_SHORT).show();
@@ -105,9 +108,12 @@ public class loginActivity extends AppCompatActivity {
 
     private void AllowAccessToAccount(final String phone, final String password)
     {
+        if(chkBoxRememberMe.isChecked())
+        {
+            Paper.book().write(Prevalent.UserPhoneKey, phone);
+            Paper.book().write(Prevalent.UserPasswordKey, password);
 
-
-
+        }
 
         final DatabaseReference RootRef;
         RootRef = FirebaseDatabase.getInstance().getReference();
@@ -135,6 +141,7 @@ public class loginActivity extends AppCompatActivity {
                             }
                             else if (parentDbName.equals("Users"))
                             {
+                                Paper.book().write(Prevalent.ContactOneKey,usersData.getSos1());
                                 Toast.makeText(loginActivity.this, "logged in Successfully...", Toast.LENGTH_SHORT).show();
                                 loadingBar.dismiss();
 

@@ -64,7 +64,7 @@ public class RegisterActivity extends AppCompatActivity {
         String sos = InputSosNumber.getText().toString();
         String password = InputPassword.getText().toString();
         String cpassword = confirmPassword.getText().toString();
-        String regexPhone = "^(?=.*[0-9])(?=\\S+$).{10}$";
+        String regexPhone = "^([6-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9])$";
         String regexPass = "^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&+=])(?=\\S+$).{8,20}$";
 
         Pattern p = Pattern.compile(regexPass);
@@ -106,7 +106,7 @@ public class RegisterActivity extends AppCompatActivity {
         {
             Toast.makeText(this, "Please Enter your SOS number for Your Safety...", Toast.LENGTH_SHORT).show();
         }
-        else if (!ma.matches())
+        else if (!mSos.matches())
         {
             Toast.makeText(this, "Please Enter a Valid Phone number...", Toast.LENGTH_LONG).show();
 
@@ -154,6 +154,7 @@ public class RegisterActivity extends AppCompatActivity {
                                     {
                                         Toast.makeText(RegisterActivity.this, "Congratulations, your account has been created.", Toast.LENGTH_SHORT).show();
                                         loadingBar.dismiss();
+
 
                                         Intent intent = new Intent(RegisterActivity.this, loginActivity.class);
                                         startActivity(intent);

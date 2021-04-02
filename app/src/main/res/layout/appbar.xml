@@ -8,7 +8,9 @@
     app:title="HOME"
     app:titleTextColor="@color/white"
     android:elevation="4dp"
+    android:gravity="end"
     android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
     >
+
 
 </androidx.appcompat.widget.Toolbar>

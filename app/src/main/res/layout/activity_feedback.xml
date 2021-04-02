@@ -4,9 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SettingActivity">
+    tools:context=".feedbackActivity">
     <androidx.appcompat.widget.Toolbar
-        android:id="@+id/TBSetting"
+        android:id="@+id/TBFeed"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
         android:background="@color/teal_700"
@@ -14,7 +14,7 @@
         android:navigationIcon="@drawable/ic_baseline_arrow_back_24"
         android:pointerIcon="zoom_in">
         <ImageButton
-            android:id="@+id/imgBtnSetting"
+            android:id="@+id/imgBtnFeedback"
             android:layout_height="match_parent"
             android:layout_width="wrap_content"
             android:background="@color/teal_700"
@@ -25,57 +25,69 @@
             android:layout_height="wrap_content"
             android:textColor="@color/white"
             android:layout_marginLeft="10dp"
-            android:text="Setting"
-            android:paddingHorizontal="20dp"
-            android:textSize="15sp"/>
+            android:gravity="center"
+            android:textSize="20dp"
+            android:text="Feedback"/>
     </androidx.appcompat.widget.Toolbar>
-
-
-    <androidx.appcompat.widget.SwitchCompat
-        android:id="@+id/SetSwi"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/TBSetting"
-        android:text="Reject Calls with Message"
-        android:textSize="19sp"
-        android:padding="15dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginLeft="15dp"
-        android:layout_marginRight="15dp"
-
-         />
     <TextView
-        android:id="@+id/SetTxt1"
-        android:layout_height="wrap_content"
+        android:id="@+id/FeedTxt"
         android:layout_width="match_parent"
-        android:text="Edit Message below"
-        android:layout_marginLeft="15dp"
-        android:layout_marginRight="15dp"
-        android:layout_marginTop="5dp"
-        android:layout_below="@id/SetSwi"/>
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TBFeed"
+        android:text="Type of Feedback"
+        android:textSize="19sp"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        />
+
+    <RadioButton
+        android:id="@+id/RBFeed1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/FeedTxt"
+        android:checked="false"
+        android:text="concern" />
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/RBFeed2"
+        android:layout_toRightOf="@+id/RBFeed1"
+        android:layout_below="@+id/FeedTxt"
+        android:text="Request"/>
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/RBFeed3"
+        
+        android:layout_toRightOf="@+id/RBFeed2"
+        android:layout_below="@+id/FeedTxt"
+        android:text="Appreciation"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/etMessage"
-        android:text="Can't Talk now,I am Riding a Bike"
+        android:id="@+id/etFeedBack"
+        android:text=""
         android:textSize="19sp"
+        android:padding="20dp"
+        android:background="@drawable/input_design"
         android:inputType="textMultiLine"
-        android:layout_below="@+id/SetTxt1"
+        android:layout_below="@+id/RBFeed1"
         android:layout_marginRight="15dp"
         android:layout_marginTop="5dp"
         android:layout_marginLeft="15dp"/>
-    <androidx.appcompat.widget.SwitchCompat
-        android:id="@+id/SetSwi2"
+    <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/etMessage"
-        android:text="Mute Notification"
-        android:textSize="19sp"
-        android:padding="15dp"
+        android:id="@+id/btnFeed"
+        android:text="submit"
+        android:textAllCaps="true"
+        android:background="@drawable/button_design"
+        android:textColor="@color/white"
+        android:layout_below="@id/etFeedBack"
+        android:layout_marginRight="15dp"
         android:layout_marginTop="5dp"
         android:layout_marginLeft="15dp"
-        android:layout_marginRight="15dp"
-         />
+        />
 
 
 </RelativeLayout>

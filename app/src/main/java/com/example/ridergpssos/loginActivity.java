@@ -141,7 +141,7 @@ public class loginActivity extends AppCompatActivity {
                             }
                             else if (parentDbName.equals("Users"))
                             {
-                                Paper.book().write(Prevalent.ContactOneKey,usersData.getSos1());
+                                
                                 Toast.makeText(loginActivity.this, "logged in Successfully...", Toast.LENGTH_SHORT).show();
                                 loadingBar.dismiss();
 

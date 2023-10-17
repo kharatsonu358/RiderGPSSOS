@@ -104,8 +104,9 @@ public class MainActivity extends AppCompatActivity  {
         txt4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, SOSScreenActivity.class);
-                startActivityForResult(intent,100);
+                Intent intent = new Intent(MainActivity.this, DeveloperInfoActivity.class);
+                startActivity(intent);
+
 
             }
         });
@@ -152,17 +153,11 @@ public class MainActivity extends AppCompatActivity  {
         MenuInflater inflater=getMenuInflater();
         inflater.inflate(R.menu.main_menu,menu);
 
-
-
-
-
-
         return true;
 
     }
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle item selection
         switch (item.getItemId()) {
             case R.id.menu_mcn:
                 openSetting();
@@ -173,7 +168,6 @@ public class MainActivity extends AppCompatActivity  {
             case R.id.menu_sign:
                 ChangeLogType();
                 return true;
-
 
             default:
                 return super.onOptionsItemSelected(item);
@@ -208,7 +202,7 @@ public class MainActivity extends AppCompatActivity  {
 
     public void startService(View v) {
 
-            Intent SosServiceIntent=new Intent(this,myService.class);
+            Intent SosServiceIntent=new Intent(this,myServiceImpl.class);
 
             startService( SosServiceIntent);
         }
@@ -216,7 +210,7 @@ public class MainActivity extends AppCompatActivity  {
 
     public void stopService(View v ){
 
-            Intent SosServiceIntent=new Intent(this,myService.class);
+            Intent SosServiceIntent=new Intent(this,myServiceImpl.class);
 
             stopService(SosServiceIntent);
 

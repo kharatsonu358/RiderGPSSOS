@@ -67,6 +67,9 @@ public class SosActivity extends AppCompatActivity {
         MinTime=dropdown.getSelectedItem().toString();
         String regexPhone = "^([6-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9])$";
         Pattern ph = Pattern.compile(regexPhone);
+        ConPick1.setHint(Paper.book().read(Prevalent.ContactOneKey));
+        ConPick2.setHint(Paper.book().read(Prevalent.ContactTwoKey));
+        ConPick3.setHint(Paper.book().read(Prevalent.ContactThreeKey));
 
         TBImgsos.setOnClickListener(new View.OnClickListener() {
             @Override

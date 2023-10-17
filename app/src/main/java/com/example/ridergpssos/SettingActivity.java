@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.ImageButton;
@@ -19,6 +20,7 @@ import io.paperdb.Paper;
 public class SettingActivity extends AppCompatActivity {
     private SwitchCompat RCWN,MNot;
     EditText EtMessage;
+    Button Save;
     public boolean RCWNIsChecked=false;
     public boolean MNotIsChecked=false;
 
@@ -28,6 +30,7 @@ public class SettingActivity extends AppCompatActivity {
         setContentView(R.layout.activity_setting);
         RCWN = findViewById(R.id.SetSwi);
         MNot = findViewById(R.id.SetSwi2);
+        Save=findViewById(R.id.btnMessSave);
         EtMessage=findViewById(R.id.etMessage);
         SharedPreferences spSet1=getSharedPreferences("saveRCWN",MODE_PRIVATE);
         SharedPreferences spSet2=getSharedPreferences("saveMNot",MODE_PRIVATE);
@@ -45,6 +48,7 @@ public class SettingActivity extends AppCompatActivity {
         });
         RCWN.setChecked(spSet1.getBoolean("value",false));
         MNot.setChecked(spSet2.getBoolean("value",false));
+
 
         RCWN.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
@@ -103,6 +107,21 @@ public class SettingActivity extends AppCompatActivity {
 
 
 
+                }
+            }
+        });
+        Save.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                String msg=EtMessage.getText().toString();
+                if(msg.equals(""))
+                {
+                    Toast.makeText(SettingActivity.this, "Please Edit The Message To Replay on Rejected Calls", Toast.LENGTH_SHORT).show();
+                }
+                else{
+                Paper.book().write(Prevalent.RejectMsgKey,msg);
+                    Toast.makeText(SettingActivity.this, "Messsage Saved", Toast.LENGTH_SHORT).show();
                 }
             }
         });

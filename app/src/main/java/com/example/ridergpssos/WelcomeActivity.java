@@ -34,7 +34,7 @@ public class WelcomeActivity extends AppCompatActivity {
 
         JoinNow=(Button)findViewById(R.id.welBtn1);
         Login=(Button)findViewById(R.id.welBtn2);
-        skip=(TextView)findViewById(R.id.Weltxt3);
+
 
         loadingBar = new ProgressDialog(this);
 
@@ -53,14 +53,6 @@ public class WelcomeActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent i=new Intent(WelcomeActivity.this,loginActivity.class);
                 startActivity(i);
-            }
-        });
-        skip.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i=new Intent(WelcomeActivity.this,MainActivity.class);
-                startActivity(i);
-
             }
         });
         String UserPhoneKey = Paper.book().read(Prevalent.UserPhoneKey);
@@ -100,7 +92,7 @@ public class WelcomeActivity extends AppCompatActivity {
                     {
                         if (usersData.getPassword().equals(password))
                         {
-                            Toast.makeText(WelcomeActivity.this, "Please wait, you are"+Paper.book().read("Boolean") +"logged in...", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(WelcomeActivity.this, "Please wait, you are logged in...", Toast.LENGTH_SHORT).show();
                             loadingBar.dismiss();
 
                             Intent intent = new Intent(WelcomeActivity.this, MainActivity.class);

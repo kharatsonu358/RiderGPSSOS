@@ -4,7 +4,7 @@ import android.Manifest;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.location.Location;
-import android.location.LocationManager;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.telephony.SmsManager;
@@ -23,6 +23,9 @@ import com.google.android.gms.location.LocationServices;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 import io.paperdb.Paper;
 
 public class SOSScreenActivity extends AppCompatActivity  {
@@ -31,9 +34,8 @@ public class SOSScreenActivity extends AppCompatActivity  {
     public SeekBar sb;
     String msg, no,Spot,no1,no2,loc;
     long MinTime=30;
-    boolean isGPSEnabled = false;
-    private LocationManager locationManager;
     private FusedLocationProviderClient fusedLocationProviderClient;
+    MediaPlayer mediaPlayer;
 
 
     @Override
@@ -43,16 +45,28 @@ public class SOSScreenActivity extends AppCompatActivity  {
         Paper.init(this);
         MinTime=Long.parseLong(Paper.book().read(Prevalent.MinTime));
         Log.v("myTag", "val = "+String.valueOf(MinTime) );
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy.MM.dd G 'at' HH:mm:ss z");
+        String currentDateandTime = sdf.format(new Date());
+        mediaPlayer=MediaPlayer.create(this,R.raw.ambulance_alert);
+        mediaPlayer.start();
+
 
         Toast.makeText(getApplicationContext(),""+MinTime,Toast.LENGTH_SHORT).show();
         Toast.makeText(getApplicationContext(),""+Paper.book().read(Prevalent.MinTime),Toast.LENGTH_SHORT).show();
         sb = findViewById(R.id.myseek);
         ClockTxt = findViewById(R.id.ClockDownTimeText);
         fusedLocationProviderClient = LocationServices.getFusedLocationProviderClient(SOSScreenActivity.this);
-        no=Paper.book().read(Prevalent.ContactOneKey);
-        no1= Paper.book().read(Prevalent.ContactTwoKey);
-        no2= Paper.book().read(Prevalent.ContactThreeKey);
-        msg="HELP! BIKE CRASHED ";
+        no = Paper.book().read(Prevalent.ContactOneKey);
+        no1 =  Paper.book().read(Prevalent.ContactTwoKey);
+        no2 =  Paper.book().read(Prevalent.ContactThreeKey);
+
+        Log.d("ashwin", "this is cont 1 : "+no);
+        Log.d("ashwin", "thisis cont 2 : "+no1);
+
+        Log.d("ashwin", "thisis cont 3 : "+no2);
+
+
+        msg="HELP! \n BIKE   On "+currentDateandTime+"\n";
 
 
 
@@ -84,6 +98,8 @@ public class SOSScreenActivity extends AppCompatActivity  {
 
                 if (seekBar.getProgress() > 95) {
                     CDT.cancel();
+                    mediaPlayer.stop();
+
 
                     Intent i=new Intent(SOSScreenActivity.this,MainActivity.class);
                     startActivity(i);
@@ -137,7 +153,7 @@ public class SOSScreenActivity extends AppCompatActivity  {
                     if (location != null) {
 
                         loc = "(" + location.getLatitude() + "," + location.getLongitude() + ")";
-                        Spot="https://www.google.com/maps/place/"+loc;
+                        Spot=" https://www.google.com/maps/place/"+loc;
 
                         SendMessage(Spot);
                     }
@@ -156,18 +172,13 @@ public class SOSScreenActivity extends AppCompatActivity  {
         SmsManager sms=SmsManager.getDefault();
 
         sms.sendTextMessage(no, null, msg, null,null);
-        if (no1!=""){
-            sms.sendTextMessage(no1, null, msg, null,null);
-            Log.v("myTag", "sms send to  = "+no1);
+        sms.sendTextMessage(no1, null, msg, null,null);
+        sms.sendTextMessage(no2, null, msg, null, null);
 
-        }
-        if (no2!="") {
-            sms.sendTextMessage(no2, null, msg, null, null);
-            Log.v("myTag", "sms send to  = "+no2 ) ;
 
-        }
 
-        Toast.makeText(getApplicationContext(), "Message Sent successfully!",
+
+        Toast.makeText(getApplicationContext(), "Message Sent successfully! to "+no ,
                 Toast.LENGTH_LONG).show();
 
     }

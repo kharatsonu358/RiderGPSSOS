@@ -12,7 +12,10 @@ public class Prevalent {
     public static final String  ContactThreeKey= "ContactThree";
     public static final String  TopSpeed= "0.0";
     public static final String  Acceleration= "Acceleration";
-    public static final String  RCWMKey= "RCW";
+    public static final String  RCWMKey= "RCWM";
     public static final String  MuteNotKey= "false";
     public static final String MinTime="minTime";
+    public static final String RejectMsgKey="RejectMsg";
+    public static final String RiderModeKey="RideMode";
+
 }

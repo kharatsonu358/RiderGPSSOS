@@ -53,22 +53,40 @@
         android:layout_marginRight="15dp"
         android:layout_marginTop="5dp"
         android:layout_below="@id/SetSwi"/>
+    <LinearLayout
+        android:id="@+id/llSetting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/SetTxt1"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp">
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/etMessage"
+        android:layout_weight="1"
         android:text="Can't Talk now,I am Riding a Bike"
         android:textSize="19sp"
         android:inputType="textMultiLine"
-        android:layout_below="@+id/SetTxt1"
-        android:layout_marginRight="15dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginLeft="15dp"/>
+
+        />
+    <Button
+        android:id="@+id/btnMessSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:background="@drawable/button_design"
+        android:text="Save"
+        android:textColor="@color/black"
+        android:textSize="19sp" />
+    </LinearLayout>
     <androidx.appcompat.widget.SwitchCompat
         android:id="@+id/SetSwi2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/etMessage"
+        android:layout_below="@+id/llSetting"
         android:text="Mute Notification"
         android:textSize="19sp"
         android:padding="15dp"

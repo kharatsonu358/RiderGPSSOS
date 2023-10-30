@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">413824220577-ldhil78lnfoc8ca1lq6et9q09c3s96c7.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">413824220577</string>
+    <string name="google_api_key" translatable="false">AIzaSyD0XuHl1YK14fepnWYwzYGvHaMpuZTZ_Vg</string>
+    <string name="google_app_id" translatable="false">1:413824220577:android:bb14a42c7e3982dbc89fe0</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyD0XuHl1YK14fepnWYwzYGvHaMpuZTZ_Vg</string>
+    <string name="google_storage_bucket" translatable="false">rider-a7764.appspot.com</string>
+    <string name="project_id" translatable="false">rider-a7764</string>
+</resources>

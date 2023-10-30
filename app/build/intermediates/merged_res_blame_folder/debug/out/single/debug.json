@@ -1,0 +1,178 @@
+[
+    {
+        "merged": "com.example.ridergpssos.app-merged_res-36:/drawable_contact_insert.xml.flat",
+        "source": "com.example.ridergpssos.app-main-38:/drawable/contact_insert.xml"
+    },
+    {
+        "merged": "com.example.ridergpssos.app-merged_res-36:/layout_activity_s_o_s_screen.xml.flat",
+        "source": "com.example.ridergpssos.app-main-38:/layout/activity_s_o_s_screen.xml"
+    },
+    {
+        "merged": "com.example.ridergpssos.app-merged_res-36:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.example.ridergpssos.app-main-38:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.ridergpssos.app-merged_res-36:/layout_activity_register.xml.flat",
+        "source": "com.example.ridergpssos.app-main-38:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.example.ridergpssos.app-merged_res-36:/layout_activity_developer_info.xml.flat",
+        "source": "com.example.ridergpssos.app-main-38:/layout/activity_developer_info.xml"
+    },
+    {
+        "merged": "com.example.ridergpssos.app-merged_res-36:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.example.ridergpssos.app-main-38:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.ridergpssos.app-merged_res-36:/layout_activity_sos.xml.flat",
+        "source": "com.example.ridergpssos.app-main-38:/layout/activity_sos.xml"
+    },
+    {
+        "merged": "com.example.ridergpssos.app-merged_res-36:/layout_activity_welcome.xml.flat",
+        "source": "com.example.ridergpssos.app-main-38:/layout/activity_welcome.xml"
+    },
+    {
+        "merged": "com.example.ridergpssos.app-merged_res-36:/drawable_devimage.jpg.flat",
+        "source": "com.example.ridergpssos.app-main-38:/drawable/devimage.jpg"
+    },
+    {
+        "merged": "com.example.ridergpssos.app-merged_res-36:/layout_activity_main.xml.flat",
+        "source": "com.example.ridergpssos.app-main-38:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.ridergpssos.app-merged_res-36:/drawable_ic_baseline_arrow_back_24.xml.flat",
+        "source": "com.example.ridergpssos.app-main-38:/drawable/ic_baseline_arrow_back_24.xml"
+    },
+    {
+        "merged": "com.example.ridergpssos.app-merged_res-36:/drawable_ic_baseline_directions_bike_24.xml.flat",
+        "source": "com.example.ridergpssos.app-main-38:/drawable/ic_baseline_directions_bike_24.xml"
+    },
+    {
+        "merged": "com.example.ridergpssos.app-merged_res-36:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.ridergpssos.app-main-38:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.ridergpssos.app-merged_res-36:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.ridergpssos.app-main-38:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.ridergpssos.app-merged_res-36:/drawable_ic_search_black_24dp.xml.flat",
+        "source": "com.example.ridergpssos.app-main-38:/drawable/ic_search_black_24dp.xml"
+    },
+    {
+        "merged": "com.example.ridergpssos.app-merged_res-36:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.example.ridergpssos.app-main-38:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.ridergpssos.app-merged_res-36:/layout_activity_map.xml.flat",
+        "source": "com.example.ridergpssos.app-main-38:/layout/activity_map.xml"
+    },
+    {
+        "merged": "com.example.ridergpssos.app-merged_res-36:/drawable_input_design.xml.flat",
+        "source": "com.example.ridergpssos.app-main-38:/drawable/input_design.xml"
+    },
+    {
+        "merged": "com.example.ridergpssos.app-merged_res-36:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.ridergpssos.app-main-38:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.ridergpssos.app-merged_res-36:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.example.ridergpssos.app-main-38:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.ridergpssos.app-merged_res-36:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.example.ridergpssos.app-main-38:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.ridergpssos.app-merged_res-36:/layout_activity_console.xml.flat",
+        "source": "com.example.ridergpssos.app-main-38:/layout/activity_console.xml"
+    },
+    {
+        "merged": "com.example.ridergpssos.app-merged_res-36:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.example.ridergpssos.app-main-38:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.ridergpssos.app-merged_res-36:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.ridergpssos.app-main-38:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.ridergpssos.app-merged_res-36:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.ridergpssos.app-main-38:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.ridergpssos.app-merged_res-36:/layout_activity_admin_dash.xml.flat",
+        "source": "com.example.ridergpssos.app-main-38:/layout/activity_admin_dash.xml"
+    },
+    {
+        "merged": "com.example.ridergpssos.app-merged_res-36:/layout_feedback_list.xml.flat",
+        "source": "com.example.ridergpssos.app-main-38:/layout/feedback_list.xml"
+    },
+    {
+        "merged": "com.example.ridergpssos.app-merged_res-36:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.ridergpssos.app-main-38:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.ridergpssos.app-merged_res-36:/drawable_bike1.jpg.flat",
+        "source": "com.example.ridergpssos.app-main-38:/drawable/bike1.jpg"
+    },
+    {
+        "merged": "com.example.ridergpssos.app-merged_res-36:/drawable_button_design.xml.flat",
+        "source": "com.example.ridergpssos.app-main-38:/drawable/button_design.xml"
+    },
+    {
+        "merged": "com.example.ridergpssos.app-merged_res-36:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.ridergpssos.app-main-38:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.ridergpssos.app-merged_res-36:/drawable_img_btn_design.xml.flat",
+        "source": "com.example.ridergpssos.app-main-38:/drawable/img_btn_design.xml"
+    },
+    {
+        "merged": "com.example.ridergpssos.app-merged_res-36:/menu_main_menu.xml.flat",
+        "source": "com.example.ridergpssos.app-main-38:/menu/main_menu.xml"
+    },
+    {
+        "merged": "com.example.ridergpssos.app-merged_res-36:/drawable_apponelogo.png.flat",
+        "source": "com.example.ridergpssos.app-main-38:/drawable/apponelogo.png"
+    },
+    {
+        "merged": "com.example.ridergpssos.app-merged_res-36:/drawable_bike2.jpg.flat",
+        "source": "com.example.ridergpssos.app-main-38:/drawable/bike2.jpg"
+    },
+    {
+        "merged": "com.example.ridergpssos.app-merged_res-36:/layout_activity_feedback.xml.flat",
+        "source": "com.example.ridergpssos.app-main-38:/layout/activity_feedback.xml"
+    },
+    {
+        "merged": "com.example.ridergpssos.app-merged_res-36:/layout_activity_setting.xml.flat",
+        "source": "com.example.ridergpssos.app-main-38:/layout/activity_setting.xml"
+    },
+    {
+        "merged": "com.example.ridergpssos.app-merged_res-36:/layout_fragment_maps.xml.flat",
+        "source": "com.example.ridergpssos.app-main-38:/layout/fragment_maps.xml"
+    },
+    {
+        "merged": "com.example.ridergpssos.app-merged_res-36:/drawable_ic_baseline_thumb_up_24.xml.flat",
+        "source": "com.example.ridergpssos.app-main-38:/drawable/ic_baseline_thumb_up_24.xml"
+    },
+    {
+        "merged": "com.example.ridergpssos.app-merged_res-36:/drawable_ic_baseline_settings_24.xml.flat",
+        "source": "com.example.ridergpssos.app-main-38:/drawable/ic_baseline_settings_24.xml"
+    },
+    {
+        "merged": "com.example.ridergpssos.app-merged_res-36:/raw_ambulance_alert.m4a.flat",
+        "source": "com.example.ridergpssos.app-main-38:/raw/ambulance_alert.m4a"
+    },
+    {
+        "merged": "com.example.ridergpssos.app-merged_res-36:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.example.ridergpssos.app-main-38:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.ridergpssos.app-merged_res-36:/layout_appbar.xml.flat",
+        "source": "com.example.ridergpssos.app-main-38:/layout/appbar.xml"
+    },
+    {
+        "merged": "com.example.ridergpssos.app-merged_res-36:/layout_activity_login.xml.flat",
+        "source": "com.example.ridergpssos.app-main-38:/layout/activity_login.xml"
+    }
+]

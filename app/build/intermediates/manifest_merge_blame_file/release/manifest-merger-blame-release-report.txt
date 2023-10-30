@@ -1,0 +1,403 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.ridergpssos"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml
+10    <!--
+11         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+12         Google Maps Android API v2, but you must specify either coarse or fine
+13         location permissions for the "MyLocation" functionality.
+14    -->
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:10:5-79
+15-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:10:22-76
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:11:5-67
+16-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:11:22-64
+17    <uses-permission android:name="android.permission.READ_CONTACTS" />
+17-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:12:5-72
+17-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:12:22-69
+18    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+18-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:13:5-77
+18-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:13:22-74
+19    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+19-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:14:5-85
+19-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:14:22-82
+20    <uses-permission android:name="android.permission.MANAGE_OWN_CALLS" />
+20-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:15:5-74
+20-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:15:22-72
+21    <uses-permission android:name="android.permission.BODY_SENSORS" />
+21-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:16:5-70
+21-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:16:22-68
+22    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+22-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:17:5-74
+22-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:17:22-72
+23
+24    <uses-feature android:name="android.hardware.Sensor" />
+24-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:19:5-60
+24-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:19:19-57
+25
+26    <uses-permission android:name="android.permission.SEND_SMS" />
+26-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:21:5-67
+26-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:21:22-64
+27    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+27-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:22:5-70
+27-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:22:22-67
+28    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+28-->[com.google.android.libraries.places:places:2.4.0] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\41d6faf0d8d2151cf59fd7226633dd3a\jetified-places-2.4.0\AndroidManifest.xml:10:5-76
+28-->[com.google.android.libraries.places:places:2.4.0] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\41d6faf0d8d2151cf59fd7226633dd3a\jetified-places-2.4.0\AndroidManifest.xml:10:22-73
+29    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+29-->[com.google.android.gms:play-services-tagmanager-api:17.0.0] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\1716279a76ca48b600e3e8517f997af7\jetified-play-services-tagmanager-api-17.0.0\AndroidManifest.xml:24:5-79
+29-->[com.google.android.gms:play-services-tagmanager-api:17.0.0] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\1716279a76ca48b600e3e8517f997af7\jetified-play-services-tagmanager-api-17.0.0\AndroidManifest.xml:24:22-76
+30
+31    <uses-feature
+31-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\d9a7a5ade5772b5f380a98b30bbdc236\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+32        android:glEsVersion="0x00020000"
+32-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\d9a7a5ade5772b5f380a98b30bbdc236\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+33        android:required="true" />
+33-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\d9a7a5ade5772b5f380a98b30bbdc236\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+34
+35    <uses-permission android:name="android.permission.WAKE_LOCK" />
+35-->[com.google.android.gms:play-services-measurement-api:18.0.2] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\4ffa197dfdf4bdbf00a84b3aeb275a0f\jetified-play-services-measurement-api-18.0.2\AndroidManifest.xml:24:5-68
+35-->[com.google.android.gms:play-services-measurement-api:18.0.2] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\4ffa197dfdf4bdbf00a84b3aeb275a0f\jetified-play-services-measurement-api-18.0.2\AndroidManifest.xml:24:22-65
+36    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+36-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\67e0b97d3ac1c33acaaf232548a0f25b\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:26:5-110
+36-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\67e0b97d3ac1c33acaaf232548a0f25b\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:26:22-107
+37
+38    <application
+38-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:24:5-73:19
+39        android:name="com.example.ridergpssos.App"
+39-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:25:9-28
+40        android:allowBackup="true"
+40-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:26:9-35
+41        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+41-->[androidx.core:core:1.3.1] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\0fd693cbeda8be952cfd72e782f62993\core-1.3.1\AndroidManifest.xml:24:18-86
+42        android:extractNativeLibs="false"
+43        android:icon="@drawable/apponelogo"
+43-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:27:9-44
+44        android:label="@string/app_name"
+44-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:28:9-41
+45        android:roundIcon="@drawable/apponelogo"
+45-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:29:9-49
+46        android:supportsRtl="true"
+46-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:30:9-35
+47        android:theme="@style/Theme.RiderGpsSOS"
+47-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:31:9-49
+48        android:usesCleartextTraffic="true" >
+48-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:32:9-44
+49        <activity
+49-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:33:9-95
+50            android:name="com.example.ridergpssos.DeveloperInfoActivity"
+50-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:33:19-56
+51            android:screenOrientation="portrait" />
+51-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:33:57-93
+52        <activity
+52-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:34:9-92
+53            android:name="com.example.ridergpssos.SOSScreenActivity"
+53-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:34:19-52
+54            android:screenOrientation="portrait" />
+54-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:34:53-89
+55
+56        <!--
+57             The API k ey for Google Maps-based APIs is defined as a string resource.
+58             (See the file "res/values/google_maps_api.xml").
+59             Note that the API key is linked to the encryption key used to sign the APK.
+60             You need a different API key for each encryption key, including the release key that is used to
+61             sign the APK for publishing.
+62             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+63        -->
+64        <meta-data
+64-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:44:9-46:55
+65            android:name="com.google.android.geo.API_KEY"
+65-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:45:13-58
+66            android:value="@string/google_maps_key" />
+66-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:46:13-52
+67
+68        <activity
+68-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:48:9-85
+69            android:name="com.example.ridergpssos.SosActivity"
+69-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:48:19-46
+70            android:screenOrientation="portrait" />
+70-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:48:47-83
+71        <activity
+71-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:49:9-85
+72            android:name="com.example.ridergpssos.MapActivity"
+72-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:49:19-46
+73            android:screenOrientation="portrait" />
+73-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:49:47-83
+74        <activity
+74-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:50:9-90
+75            android:name="com.example.ridergpssos.feedbackActivity"
+75-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:50:19-51
+76            android:screenOrientation="portrait" />
+76-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:50:52-88
+77        <activity
+77-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:51:9-89
+78            android:name="com.example.ridergpssos.ConsoleActivity"
+78-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:51:19-50
+79            android:screenOrientation="portrait" />
+79-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:51:51-87
+80        <activity
+80-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:52:9-58:20
+81            android:name="com.example.ridergpssos.WelcomeActivity"
+81-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:52:19-50
+82            android:screenOrientation="portrait" >
+82-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:52:51-87
+83            <intent-filter>
+83-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:53:13-57:29
+84                <action android:name="android.intent.action.MAIN" />
+84-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:54:17-69
+84-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:54:25-66
+85
+86                <category android:name="android.intent.category.LAUNCHER" />
+86-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:56:17-77
+86-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:56:27-74
+87            </intent-filter>
+88        </activity>
+89        <activity
+89-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:59:9-83
+90            android:name="com.example.ridergpssos.AdminDash"
+90-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:59:19-44
+91            android:screenOrientation="portrait" />
+91-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:59:45-81
+92        <activity
+92-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:60:9-90
+93            android:name="com.example.ridergpssos.RegisterActivity"
+93-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:60:19-51
+94            android:screenOrientation="portrait" />
+94-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:60:52-88
+95        <activity
+95-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:61:9-87
+96            android:name="com.example.ridergpssos.loginActivity"
+96-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:61:19-48
+97            android:screenOrientation="portrait" />
+97-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:61:49-85
+98        <activity
+98-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:62:9-89
+99            android:name="com.example.ridergpssos.SettingActivity"
+99-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:62:19-50
+100            android:screenOrientation="portrait" />
+100-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:62:51-87
+101        <activity
+101-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:63:9-86
+102            android:name="com.example.ridergpssos.MainActivity"
+102-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:63:19-47
+103            android:screenOrientation="portrait" />
+103-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:63:48-84
+104
+105        <receiver android:name="com.example.ridergpssos.RejectCalls" >
+105-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:66:9-70:20
+105-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:66:19-46
+106            <intent-filter android:priority="999" >
+106-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:67:13-69:29
+106-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:67:28-50
+107                <action android:name="android.intent.action.PHONE_STATE" />
+107-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:68:17-76
+107-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:68:25-73
+108            </intent-filter>
+109        </receiver>
+110
+111        <service android:name="com.example.ridergpssos.myServiceImpl" />
+111-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:71:9-50
+111-->C:\Users\khara\AndroidStudioProjects\RiderGpsSOS\app\src\main\AndroidManifest.xml:71:18-47
+112
+113        <activity
+113-->[com.google.android.libraries.places:places:2.4.0] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\41d6faf0d8d2151cf59fd7226633dd3a\jetified-places-2.4.0\AndroidManifest.xml:14:9-20:20
+114            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
+114-->[com.google.android.libraries.places:places:2.4.0] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\41d6faf0d8d2151cf59fd7226633dd3a\jetified-places-2.4.0\AndroidManifest.xml:15:13-91
+115            android:exported="false"
+115-->[com.google.android.libraries.places:places:2.4.0] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\41d6faf0d8d2151cf59fd7226633dd3a\jetified-places-2.4.0\AndroidManifest.xml:16:13-37
+116            android:label="@string/places_autocomplete_label"
+116-->[com.google.android.libraries.places:places:2.4.0] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\41d6faf0d8d2151cf59fd7226633dd3a\jetified-places-2.4.0\AndroidManifest.xml:17:13-62
+117            android:theme="@style/PlacesAutocompleteOverlay"
+117-->[com.google.android.libraries.places:places:2.4.0] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\41d6faf0d8d2151cf59fd7226633dd3a\jetified-places-2.4.0\AndroidManifest.xml:18:13-61
+118            android:windowSoftInputMode="adjustResize" >
+118-->[com.google.android.libraries.places:places:2.4.0] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\41d6faf0d8d2151cf59fd7226633dd3a\jetified-places-2.4.0\AndroidManifest.xml:19:13-55
+119        </activity>
+120
+121        <service
+121-->[com.google.android.gms:play-services-tagmanager-api:17.0.0] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\1716279a76ca48b600e3e8517f997af7\jetified-play-services-tagmanager-api-17.0.0\AndroidManifest.xml:27:9-30:40
+122            android:name="com.google.android.gms.tagmanager.TagManagerService"
+122-->[com.google.android.gms:play-services-tagmanager-api:17.0.0] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\1716279a76ca48b600e3e8517f997af7\jetified-play-services-tagmanager-api-17.0.0\AndroidManifest.xml:28:13-79
+123            android:enabled="true"
+123-->[com.google.android.gms:play-services-tagmanager-api:17.0.0] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\1716279a76ca48b600e3e8517f997af7\jetified-play-services-tagmanager-api-17.0.0\AndroidManifest.xml:29:13-35
+124            android:exported="false" />
+124-->[com.google.android.gms:play-services-tagmanager-api:17.0.0] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\1716279a76ca48b600e3e8517f997af7\jetified-play-services-tagmanager-api-17.0.0\AndroidManifest.xml:30:13-37
+125
+126        <activity
+126-->[com.google.android.gms:play-services-tagmanager-api:17.0.0] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\1716279a76ca48b600e3e8517f997af7\jetified-play-services-tagmanager-api-17.0.0\AndroidManifest.xml:32:9-44:20
+127            android:name="com.google.android.gms.tagmanager.TagManagerPreviewActivity"
+127-->[com.google.android.gms:play-services-tagmanager-api:17.0.0] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\1716279a76ca48b600e3e8517f997af7\jetified-play-services-tagmanager-api-17.0.0\AndroidManifest.xml:33:13-87
+128            android:exported="true"
+128-->[com.google.android.gms:play-services-tagmanager-api:17.0.0] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\1716279a76ca48b600e3e8517f997af7\jetified-play-services-tagmanager-api-17.0.0\AndroidManifest.xml:34:13-36
+129            android:noHistory="true" > <!-- optional, removes the previewActivity from the activity stack. -->
+129-->[com.google.android.gms:play-services-tagmanager-api:17.0.0] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\1716279a76ca48b600e3e8517f997af7\jetified-play-services-tagmanager-api-17.0.0\AndroidManifest.xml:35:13-37
+130            <intent-filter>
+130-->[com.google.android.gms:play-services-tagmanager-api:17.0.0] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\1716279a76ca48b600e3e8517f997af7\jetified-play-services-tagmanager-api-17.0.0\AndroidManifest.xml:36:13-43:29
+131                <data android:scheme="tagmanager.c.com.example.ridergpssos" />
+131-->[com.google.android.gms:play-services-tagmanager-api:17.0.0] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\1716279a76ca48b600e3e8517f997af7\jetified-play-services-tagmanager-api-17.0.0\AndroidManifest.xml:37:17-72
+131-->[com.google.android.gms:play-services-tagmanager-api:17.0.0] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\1716279a76ca48b600e3e8517f997af7\jetified-play-services-tagmanager-api-17.0.0\AndroidManifest.xml:37:23-69
+132
+133                <action android:name="android.intent.action.VIEW" />
+133-->[com.google.android.gms:play-services-tagmanager-api:17.0.0] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\1716279a76ca48b600e3e8517f997af7\jetified-play-services-tagmanager-api-17.0.0\AndroidManifest.xml:39:17-69
+133-->[com.google.android.gms:play-services-tagmanager-api:17.0.0] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\1716279a76ca48b600e3e8517f997af7\jetified-play-services-tagmanager-api-17.0.0\AndroidManifest.xml:39:25-66
+134
+135                <category android:name="android.intent.category.DEFAULT" />
+135-->[com.google.android.gms:play-services-tagmanager-api:17.0.0] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\1716279a76ca48b600e3e8517f997af7\jetified-play-services-tagmanager-api-17.0.0\AndroidManifest.xml:41:17-76
+135-->[com.google.android.gms:play-services-tagmanager-api:17.0.0] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\1716279a76ca48b600e3e8517f997af7\jetified-play-services-tagmanager-api-17.0.0\AndroidManifest.xml:41:27-73
+136                <category android:name="android.intent.category.BROWSABLE" />
+136-->[com.google.android.gms:play-services-tagmanager-api:17.0.0] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\1716279a76ca48b600e3e8517f997af7\jetified-play-services-tagmanager-api-17.0.0\AndroidManifest.xml:42:17-78
+136-->[com.google.android.gms:play-services-tagmanager-api:17.0.0] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\1716279a76ca48b600e3e8517f997af7\jetified-play-services-tagmanager-api-17.0.0\AndroidManifest.xml:42:27-75
+137            </intent-filter>
+138        </activity>
+139
+140        <service
+140-->[com.google.firebase:firebase-database:19.6.0] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\d14bd3ca746a90185963ede9ad73c3a2\jetified-firebase-database-19.6.0\AndroidManifest.xml:29:9-35:19
+141            android:name="com.google.firebase.components.ComponentDiscoveryService"
+141-->[com.google.firebase:firebase-database:19.6.0] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\d14bd3ca746a90185963ede9ad73c3a2\jetified-firebase-database-19.6.0\AndroidManifest.xml:30:13-84
+142            android:directBootAware="true"
+142-->[com.google.firebase:firebase-common:19.5.0] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\6137949eb04c0baf7bc42e782c634fb9\jetified-firebase-common-19.5.0\AndroidManifest.xml:35:13-43
+143            android:exported="false" >
+143-->[com.google.firebase:firebase-database:19.6.0] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\d14bd3ca746a90185963ede9ad73c3a2\jetified-firebase-database-19.6.0\AndroidManifest.xml:31:13-37
+144            <meta-data
+144-->[com.google.firebase:firebase-database:19.6.0] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\d14bd3ca746a90185963ede9ad73c3a2\jetified-firebase-database-19.6.0\AndroidManifest.xml:32:13-34:85
+145                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+145-->[com.google.firebase:firebase-database:19.6.0] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\d14bd3ca746a90185963ede9ad73c3a2\jetified-firebase-database-19.6.0\AndroidManifest.xml:33:17-109
+146                android:value="com.google.firebase.components.ComponentRegistrar" />
+146-->[com.google.firebase:firebase-database:19.6.0] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\d14bd3ca746a90185963ede9ad73c3a2\jetified-firebase-database-19.6.0\AndroidManifest.xml:34:17-82
+147            <meta-data
+147-->[com.google.android.gms:play-services-measurement-api:18.0.2] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\4ffa197dfdf4bdbf00a84b3aeb275a0f\jetified-play-services-measurement-api-18.0.2\AndroidManifest.xml:30:13-32:85
+148                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+148-->[com.google.android.gms:play-services-measurement-api:18.0.2] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\4ffa197dfdf4bdbf00a84b3aeb275a0f\jetified-play-services-measurement-api-18.0.2\AndroidManifest.xml:31:17-139
+149                android:value="com.google.firebase.components.ComponentRegistrar" />
+149-->[com.google.android.gms:play-services-measurement-api:18.0.2] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\4ffa197dfdf4bdbf00a84b3aeb275a0f\jetified-play-services-measurement-api-18.0.2\AndroidManifest.xml:32:17-82
+150            <meta-data
+150-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\e7656dc500e26d5985fed9d364afdc23\jetified-firebase-installations-16.3.5\AndroidManifest.xml:18:13-20:85
+151                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+151-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\e7656dc500e26d5985fed9d364afdc23\jetified-firebase-installations-16.3.5\AndroidManifest.xml:19:17-127
+152                android:value="com.google.firebase.components.ComponentRegistrar" />
+152-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\e7656dc500e26d5985fed9d364afdc23\jetified-firebase-installations-16.3.5\AndroidManifest.xml:20:17-82
+153            <!--
+154                This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase
+155                clients to use it as well, by defining this registrar in their own core/common library.
+156            -->
+157            <meta-data
+157-->[com.google.firebase:firebase-common:19.5.0] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\6137949eb04c0baf7bc42e782c634fb9\jetified-firebase-common-19.5.0\AndroidManifest.xml:43:13-45:85
+158                android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
+158-->[com.google.firebase:firebase-common:19.5.0] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\6137949eb04c0baf7bc42e782c634fb9\jetified-firebase-common-19.5.0\AndroidManifest.xml:44:17-121
+159                android:value="com.google.firebase.components.ComponentRegistrar" />
+159-->[com.google.firebase:firebase-common:19.5.0] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\6137949eb04c0baf7bc42e782c634fb9\jetified-firebase-common-19.5.0\AndroidManifest.xml:45:17-82
+160        </service> <!-- Needs to be explicitly declared on P+ -->
+161        <uses-library
+161-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\d9a7a5ade5772b5f380a98b30bbdc236\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+162            android:name="org.apache.http.legacy"
+162-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\d9a7a5ade5772b5f380a98b30bbdc236\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+163            android:required="false" />
+163-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\d9a7a5ade5772b5f380a98b30bbdc236\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+164
+165        <meta-data
+165-->[com.google.maps.android:android-maps-utils:0.4] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\94077c36ccc5a2b6e6d0ab735a8e5e04\jetified-android-maps-utils-0.4\AndroidManifest.xml:8:9-10:69
+166            android:name="com.google.android.gms.version"
+166-->[com.google.maps.android:android-maps-utils:0.4] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\94077c36ccc5a2b6e6d0ab735a8e5e04\jetified-android-maps-utils-0.4\AndroidManifest.xml:9:13-58
+167            android:value="@integer/google_play_services_version" />
+167-->[com.google.maps.android:android-maps-utils:0.4] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\94077c36ccc5a2b6e6d0ab735a8e5e04\jetified-android-maps-utils-0.4\AndroidManifest.xml:10:13-66
+168
+169        <provider
+169-->[com.google.firebase:firebase-common:19.5.0] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\6137949eb04c0baf7bc42e782c634fb9\jetified-firebase-common-19.5.0\AndroidManifest.xml:26:9-31:39
+170            android:name="com.google.firebase.provider.FirebaseInitProvider"
+170-->[com.google.firebase:firebase-common:19.5.0] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\6137949eb04c0baf7bc42e782c634fb9\jetified-firebase-common-19.5.0\AndroidManifest.xml:27:13-77
+171            android:authorities="com.example.ridergpssos.firebaseinitprovider"
+171-->[com.google.firebase:firebase-common:19.5.0] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\6137949eb04c0baf7bc42e782c634fb9\jetified-firebase-common-19.5.0\AndroidManifest.xml:28:13-72
+172            android:directBootAware="true"
+172-->[com.google.firebase:firebase-common:19.5.0] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\6137949eb04c0baf7bc42e782c634fb9\jetified-firebase-common-19.5.0\AndroidManifest.xml:29:13-43
+173            android:exported="false"
+173-->[com.google.firebase:firebase-common:19.5.0] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\6137949eb04c0baf7bc42e782c634fb9\jetified-firebase-common-19.5.0\AndroidManifest.xml:30:13-37
+174            android:initOrder="100" />
+174-->[com.google.firebase:firebase-common:19.5.0] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\6137949eb04c0baf7bc42e782c634fb9\jetified-firebase-common-19.5.0\AndroidManifest.xml:31:13-36
+175
+176        <activity
+176-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\13f396d14578b37bf279cdb406c9f0bd\jetified-play-services-base-17.2.1\AndroidManifest.xml:23:9-26:75
+177            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+177-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\13f396d14578b37bf279cdb406c9f0bd\jetified-play-services-base-17.2.1\AndroidManifest.xml:24:13-79
+178            android:exported="false"
+178-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\13f396d14578b37bf279cdb406c9f0bd\jetified-play-services-base-17.2.1\AndroidManifest.xml:25:13-37
+179            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+179-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\13f396d14578b37bf279cdb406c9f0bd\jetified-play-services-base-17.2.1\AndroidManifest.xml:26:13-72
+180
+181        <receiver
+181-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\67e0b97d3ac1c33acaaf232548a0f25b\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:29:9-33:20
+182            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+182-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\67e0b97d3ac1c33acaaf232548a0f25b\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:30:13-85
+183            android:enabled="true"
+183-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\67e0b97d3ac1c33acaaf232548a0f25b\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:31:13-35
+184            android:exported="false" >
+184-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\67e0b97d3ac1c33acaaf232548a0f25b\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:32:13-37
+185        </receiver>
+186
+187        <service
+187-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\67e0b97d3ac1c33acaaf232548a0f25b\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:35:9-38:40
+188            android:name="com.google.android.gms.measurement.AppMeasurementService"
+188-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\67e0b97d3ac1c33acaaf232548a0f25b\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:36:13-84
+189            android:enabled="true"
+189-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\67e0b97d3ac1c33acaaf232548a0f25b\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:37:13-35
+190            android:exported="false" />
+190-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\67e0b97d3ac1c33acaaf232548a0f25b\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:38:13-37
+191        <service
+191-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\67e0b97d3ac1c33acaaf232548a0f25b\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:39:9-43:72
+192            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+192-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\67e0b97d3ac1c33acaaf232548a0f25b\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:40:13-87
+193            android:enabled="true"
+193-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\67e0b97d3ac1c33acaaf232548a0f25b\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:41:13-35
+194            android:exported="false"
+194-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\67e0b97d3ac1c33acaaf232548a0f25b\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:42:13-37
+195            android:permission="android.permission.BIND_JOB_SERVICE" />
+195-->[com.google.android.gms:play-services-measurement:18.0.2] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\67e0b97d3ac1c33acaaf232548a0f25b\jetified-play-services-measurement-18.0.2\AndroidManifest.xml:43:13-69
+196        <service
+196-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\35bf9a387e887c7d671807377edb7e38\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:29:9-35:19
+197            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+197-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\35bf9a387e887c7d671807377edb7e38\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:30:13-103
+198            android:exported="false" >
+198-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\35bf9a387e887c7d671807377edb7e38\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:31:13-37
+199            <meta-data
+199-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\35bf9a387e887c7d671807377edb7e38\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:32:13-34:39
+200                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+200-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\35bf9a387e887c7d671807377edb7e38\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:33:17-94
+201                android:value="cct" />
+201-->[com.google.android.datatransport:transport-backend-cct:2.3.0] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\35bf9a387e887c7d671807377edb7e38\jetified-transport-backend-cct-2.3.0\AndroidManifest.xml:34:17-36
+202        </service>
+203        <service
+203-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\24103c6795313a3fcb79326a2dd05823\jetified-transport-runtime-2.2.3\AndroidManifest.xml:26:9-30:19
+204            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+204-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\24103c6795313a3fcb79326a2dd05823\jetified-transport-runtime-2.2.3\AndroidManifest.xml:27:13-117
+205            android:exported="false"
+205-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\24103c6795313a3fcb79326a2dd05823\jetified-transport-runtime-2.2.3\AndroidManifest.xml:28:13-37
+206            android:permission="android.permission.BIND_JOB_SERVICE" >
+206-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\24103c6795313a3fcb79326a2dd05823\jetified-transport-runtime-2.2.3\AndroidManifest.xml:29:13-69
+207        </service>
+208
+209        <receiver
+209-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\24103c6795313a3fcb79326a2dd05823\jetified-transport-runtime-2.2.3\AndroidManifest.xml:32:9-34:40
+210            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+210-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\24103c6795313a3fcb79326a2dd05823\jetified-transport-runtime-2.2.3\AndroidManifest.xml:33:13-132
+211            android:exported="false" />
+211-->[com.google.android.datatransport:transport-runtime:2.2.3] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\24103c6795313a3fcb79326a2dd05823\jetified-transport-runtime-2.2.3\AndroidManifest.xml:34:13-37
+212
+213        <provider
+213-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\ce7cd45b799469f47b7b44b8827a438c\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
+214            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+214-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\ce7cd45b799469f47b7b44b8827a438c\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
+215            android:authorities="com.example.ridergpssos.lifecycle-process"
+215-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\ce7cd45b799469f47b7b44b8827a438c\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
+216            android:exported="false"
+216-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\ce7cd45b799469f47b7b44b8827a438c\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
+217            android:multiprocess="true" />
+217-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\khara\.gradle\caches\transforms-2\files-2.1\ce7cd45b799469f47b7b44b8827a438c\jetified-lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
+218    </application>
+219
+220</manifest>

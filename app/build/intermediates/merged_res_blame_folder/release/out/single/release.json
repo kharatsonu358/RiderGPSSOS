@@ -1,0 +1,178 @@
+[
+    {
+        "merged": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\build\\intermediates\\res\\merged\\release\\layout_appbar.xml.flat",
+        "source": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\src\\main\\res\\layout\\appbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\build\\intermediates\\res\\merged\\release\\menu_main_menu.xml.flat",
+        "source": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\src\\main\\res\\menu\\main_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_s_o_s_screen.xml.flat",
+        "source": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\src\\main\\res\\layout\\activity_s_o_s_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\build\\intermediates\\res\\merged\\release\\drawable_img_btn_design.xml.flat",
+        "source": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\src\\main\\res\\drawable\\img_btn_design.xml"
+    },
+    {
+        "merged": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\build\\intermediates\\res\\merged\\release\\drawable_contact_insert.xml.flat",
+        "source": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\src\\main\\res\\drawable\\contact_insert.xml"
+    },
+    {
+        "merged": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\build\\intermediates\\res\\merged\\release\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_welcome.xml.flat",
+        "source": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\src\\main\\res\\layout\\activity_welcome.xml"
+    },
+    {
+        "merged": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_setting.xml.flat",
+        "source": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\src\\main\\res\\layout\\activity_setting.xml"
+    },
+    {
+        "merged": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\build\\intermediates\\res\\merged\\release\\drawable_button_design.xml.flat",
+        "source": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\src\\main\\res\\drawable\\button_design.xml"
+    },
+    {
+        "merged": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\build\\intermediates\\res\\merged\\release\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\build\\intermediates\\res\\merged\\release\\drawable_bike2.jpg.flat",
+        "source": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\src\\main\\res\\drawable\\bike2.jpg"
+    },
+    {
+        "merged": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_register.xml.flat",
+        "source": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\src\\main\\res\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_admin_dash.xml.flat",
+        "source": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\src\\main\\res\\layout\\activity_admin_dash.xml"
+    },
+    {
+        "merged": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\build\\intermediates\\res\\merged\\release\\layout_feedback_list.xml.flat",
+        "source": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\src\\main\\res\\layout\\feedback_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_map.xml.flat",
+        "source": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\src\\main\\res\\layout\\activity_map.xml"
+    },
+    {
+        "merged": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_developer_info.xml.flat",
+        "source": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\src\\main\\res\\layout\\activity_developer_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_search_black_24dp.xml.flat",
+        "source": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\src\\main\\res\\drawable\\ic_search_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\build\\intermediates\\res\\merged\\release\\drawable_input_design.xml.flat",
+        "source": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\src\\main\\res\\drawable\\input_design.xml"
+    },
+    {
+        "merged": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\build\\intermediates\\res\\merged\\release\\drawable_bike1.jpg.flat",
+        "source": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\src\\main\\res\\drawable\\bike1.jpg"
+    },
+    {
+        "merged": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_console.xml.flat",
+        "source": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\src\\main\\res\\layout\\activity_console.xml"
+    },
+    {
+        "merged": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_sos.xml.flat",
+        "source": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\src\\main\\res\\layout\\activity_sos.xml"
+    },
+    {
+        "merged": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_feedback.xml.flat",
+        "source": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\src\\main\\res\\layout\\activity_feedback.xml"
+    },
+    {
+        "merged": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_baseline_directions_bike_24.xml.flat",
+        "source": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\src\\main\\res\\drawable\\ic_baseline_directions_bike_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\build\\intermediates\\res\\merged\\release\\drawable_devimage.jpg.flat",
+        "source": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\src\\main\\res\\drawable\\devimage.jpg"
+    },
+    {
+        "merged": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_baseline_thumb_up_24.xml.flat",
+        "source": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\src\\main\\res\\drawable\\ic_baseline_thumb_up_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_baseline_arrow_back_24.xml.flat",
+        "source": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\src\\main\\res\\drawable\\ic_baseline_arrow_back_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\build\\intermediates\\res\\merged\\release\\drawable_ic_baseline_settings_24.xml.flat",
+        "source": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\src\\main\\res\\drawable\\ic_baseline_settings_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\build\\intermediates\\res\\merged\\release\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\build\\intermediates\\res\\merged\\release\\layout_fragment_maps.xml.flat",
+        "source": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\src\\main\\res\\layout\\fragment_maps.xml"
+    },
+    {
+        "merged": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\build\\intermediates\\res\\merged\\release\\drawable_apponelogo.png.flat",
+        "source": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\src\\main\\res\\drawable\\apponelogo.png"
+    },
+    {
+        "merged": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\build\\intermediates\\res\\merged\\release\\raw_ambulance_alert.m4a.flat",
+        "source": "C:\\Users\\khara\\AndroidStudioProjects\\RiderGpsSOS\\app\\src\\main\\res\\raw\\ambulance_alert.m4a"
+    }
+]
